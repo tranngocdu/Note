@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:drawable="@drawable/block_color_e3e3e3" android:state_pressed="true" />
-    <item android:drawable="@drawable/block_color_f5f5f5" />
-</selector><!-- From: file:/home/trandu/LaptrinhAndroid/android-projects/Note/app/src/main/res/drawable/button_normal.xml -->
