@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal"
+    android:padding="20px">
+
+    <TextView
+        android:id="@+id/timeReminderTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="15:00" />
+
+    <TextView
+        android:id="@+id/contentReminderTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40px"
+        android:layout_marginRight="40px"
+        android:layout_toLeftOf="@+id/deleteReminderButton"
+        android:layout_toRightOf="@+id/timeReminderTextView"
+        android:text="reminder" />
+
+    <ImageButton
+        android:id="@+id/deleteReminderButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@null"
+        android:paddingBottom="20px"
+        android:paddingLeft="40px"
+        android:paddingRight="40px"
+        android:paddingTop="20px"
+        android:src="@drawable/ic_highlight_off_black_18dp" />
+
+</RelativeLayout><!-- From: file:/home/trandu/LaptrinhAndroid/android-projects/Note/app/src/main/res/layout/list_item_reminder.xml -->

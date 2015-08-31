@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/noticeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/dateTextView"
+        android:gravity="center_horizontal|center_vertical"
+        android:padding="20px"
+        android:text="Chưa có ghi chú nào.\nNhấn vào dấu cộng ở bên dưới để tạo ghi chú."
+        android:textSize="18dp" />
+
+    <ListView
+        android:id="@+id/listViewInMainFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageButton
+        android:id="@+id/btn_float"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="40px"
+        android:layout_marginRight="40px"
+        android:background="@drawable/circle_green_float"
+        android:src="@drawable/ic_add_white_24dp" />
+
+</RelativeLayout>

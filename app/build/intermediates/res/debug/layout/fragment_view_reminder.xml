@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20px"
+        android:text="11-08-2015"
+        android:textColor="@android:color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/noticeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dateTextView"
+        android:gravity="center_horizontal"
+        android:padding="20px"
+        android:text="Không có nhắc nhở."
+        android:textSize="18dp" />
+
+    <ListView
+        android:id="@+id/view_reminder_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/dateTextView">
+
+    </ListView>
+
+    <ImageButton
+        android:id="@+id/btn_float"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="40px"
+        android:layout_marginRight="40px"
+        android:background="@drawable/circle_green_float"
+        android:src="@drawable/ic_add_white_24dp" />
+
+</RelativeLayout><!-- From: file:/home/trandu/LaptrinhAndroid/android-projects/Note/app/src/main/res/layout/fragment_view_reminder.xml -->

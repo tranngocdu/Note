@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingBottom="40px"
+    android:paddingLeft="40px"
+    android:paddingRight="40px"
+    android:paddingTop="40px">
+
+    <ImageView
+        android:id="@+id/mainmenu_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/arrow_up_float" />
+
+    <TextView
+        android:id="@+id/mainmenu_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40px"
+        android:text="test"
+        android:textColor="#000000"
+        android:textSize="30px" />
+
+</LinearLayout><!-- From: file:/home/trandu/LaptrinhAndroid/android-projects/Note/app/src/main/res/layout/list_item_mainmenu.xml -->
